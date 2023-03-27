@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Manrope:wght@500&family=Montserrat&family=Press+Start+2P&display=swap");
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: url(images/BG.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+H1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Press Start 2P", sans-serif;
+  background-color: blue;
+  border-radius: 20px;
+  color: white;
+}
+H2 {
+  background: linear-gradient(blue, white);
+  border-radius: 20px 0 20px 0;
+}
+ol,p,ul{
+  background:rgba(255,255,255,0.5)
+}
+a {
+  color: black;
+}
+em {
+  color: #168314d6;
+}
+ol,ul{
+   border: solid 5px green;
+   padding: 10px;
+   border-radius: 10px;
+   margin-top: 20px;}
+  /* sa sert a un faire un carré ou  rectangle vert  */
+   .lien_cours li {
+   list-style: none;
+   height: 150px;
+   width: 150px;
+   margin: 10px;
+   border: solid 2px green;
+   /* sa sert a faire un rectangle dans un rectangle */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* sa sert a ressentrer les image */
+  }
+ 
+  .lien_cours ol,ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;}
+    /* sa sert a aligner les petit carré */
